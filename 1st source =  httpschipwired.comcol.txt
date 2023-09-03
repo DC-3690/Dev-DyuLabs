@@ -1,0 +1,26 @@
+1st source =>  https://chipwired.com/collect-data-with-raspberry-pi/
+
+
+RoadMap :=>
+1. https://www.youtube.com/watch?v=Tsy8SwY_jic&t=668s     control LED
+2. https://www.youtube.com/watch?v=1W7POIEAaAM            display Data
+
+
+1st => way python Rpi.GPIO library in virtual raspberry os
+2nd => use phidget library in python
+3rd => https://www.youtube.com/watch?v=owgRkU_-4lw  combined project
+4th => https://www.youtube.com/watch?v=K60ACu4j2Kw   Rest API
+5th => https://youtu.be/eJUGhGl3-b4?si=Al1l8qr00sTB9zfT code with MQTT protocol.
+6th => https://www.youtube.com/watch?v=scgt9qK8xvU   MQTT with vanila js 
+
+https://roboticsbackend.com/raspberry-pi-control-led-python-3/ simple GPIO LED code
+
+MQTT protocol => 
+
+https://www.hivemq.com/article/ultimate-guide-on-how-to-use-mqtt-with-node-js/#:~:text=js%20library%2C%20specify%20the%20ws,creating%20the%20MQTT%20client%20instance.&text=1-,const%20client%20%3D%20mqtt.,many%20programming%20languages%20and%20frameworks.
+
+
+MQTT npm package => https://www.npmjs.com/package/mqtt
+
+
+https://www.youtube.com/watch?v=Ce2Djxx9shU&t=9s  setup mqtt server

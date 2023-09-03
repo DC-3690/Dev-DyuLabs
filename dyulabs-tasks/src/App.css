@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  font-family: serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main{
+    border: 1px solid black;
+    width: 100%;
+    background-color: blue;
+    height: auto;
+    display: flex;
+}
+
+.bulb-button{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.icons{
+  height: 40px;
+  width: 40px;
+}
+
+.light-section{
+  width: 50%;
+  background-color: #313035;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rem 0rem;
+}
+
+.sensor-section{
+  width: 50%;
+  background-color: #e6eaea;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charts{
+  display: block;
+  
+}
+
+.sensor-item{
+    height: auto;
+    width: 98%;
+    margin-top: 5px;
+    border: 1px solid #313035;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding: 3px;
+    background-color: white;
+    color: #313035;
+    font-weight: bold;
+}
+
+.sensor-details{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    width: 50%;
+    display: block;
+    background-color: #313035;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
